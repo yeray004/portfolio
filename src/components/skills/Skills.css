@@ -1,0 +1,34 @@
+/* BACKGROUND */
+.skills-bckg{
+    background: conic-gradient(from 110.67deg at 50% 50%, #101820 -49.08deg, #400966 38.12deg, #101820 166.14deg, #101820 310.92deg, #400966 398.12deg);
+}
+.blur-container{
+    display: flex;
+    width: 80%;
+    margin: 1%;
+    padding: 2%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    align-items: center;
+}
+.blur-container h3{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    color: var(--color-cool-gray-4-c);
+}
+.blur-container h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: clamp(1.4em,2.5vw, 1.7em);
+}
+.blur-container p{
+    font-size: clamp(1.4em,2.5vw, 1.7em);
+}
+.skills-container-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0% 2%;
+}

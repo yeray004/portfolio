@@ -6,7 +6,7 @@
     left: 0;
     background: #101820;
     overflow: hidden;
-    z-index: -100;
+    z-index: -999;
 }
 
 .background-home span {

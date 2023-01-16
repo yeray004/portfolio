@@ -4,7 +4,7 @@ function BackgroundHome() {
     return (
         <>
         {/* Animated Background */}
-            <section class="background-home">
+            <div class="background-home">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -14,7 +14,7 @@ function BackgroundHome() {
                 <span></span>
                 <span></span>
                 <span></span>
-            </section>
+            </div>
         </>
     )
 }

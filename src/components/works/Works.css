@@ -1,0 +1,73 @@
+.works-parent {
+    width: 70%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-content: center;
+}
+.works-img-logo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.works-img-logo::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.works-logo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+}
+.works-text{
+    margin: 5% 0%;
+}
+.works-div1, .works-div2, .works-div3, .works-div4, .works-div5{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+.works-div4 .works-text, .works-div5 .works-text{
+    margin: 3.5% 0%;
+}
+.works-div4, .works-div5{
+    margin: 1.2%;
+}
+.works-div4 img, .works-div5 img{
+    width: 50%;
+}
+.works-div1 { grid-area: 1 / 1 / 2 / 3; }
+.works-img1{
+    background-image: url(../img/works/Formula2Vie.png);
+}
+.works-div2 { grid-area: 1 / 3 / 2 / 5; }
+.works-div3 { grid-area: 1 / 5 / 2 / 7; }
+.works-div4 { grid-area: 2 / 1 / 3 / 4; }
+.works-div5 { grid-area: 2 / 4 / 3 / 7; }
+/* BACKGROUND */
+.works-bckg{
+    z-index: -999;
+    background: conic-gradient(from -44.32deg at 50% 50%, #101820 -49.08deg, #035453 38.12deg, #101820 166.14deg, #101820 310.92deg, #035453 398.12deg);
+}
+.works-bckg h1{
+    margin-top: 2%;
+}
