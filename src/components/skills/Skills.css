@@ -4,13 +4,20 @@
 }
 .blur-container{
     display: flex;
-    width: 80%;
-    margin: 1%;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0% 1% 3% 1%;
     padding: 2%;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2px);
     border-radius: 10px;
     align-items: center;
+}
+.blur-container h4{
+    text-align: center;
+}
+.blur-container:first-of-type{
+    margin: 2% 1% 1% 1%;
 }
 .blur-container h3{
     writing-mode: vertical-lr;
@@ -21,14 +28,42 @@
 .blur-container h4{
     margin: 0;
     font-weight: 400;
-    font-size: clamp(1.4em,2.5vw, 1.7em);
+    font-size: clamp(.8em,2.5vw, 2.1em);
 }
-.blur-container p{
-    font-size: clamp(1.4em,2.5vw, 1.7em);
+.blur-container ul{
+    padding-left: 1em;
 }
-.skills-container-1{
+.blur-container li{
+    font-size: clamp(.5em,2vw, 1.8em);
+}
+.skills-container-1, .skills-container-2{
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 0% 2%;
+    gap: 0% 5%;
+}
+/* .skills-container-2{
+    flex-wrap: wrap;
+} */
+.skills-container-2 li{
+    font-size: clamp(.5em,1.6vw, 1.5em);
+}
+.skills-icon{
+    width: 15px;
+    height: auto;
+}
+.studies-main{
+/*     min-width: 400px; */
+}
+.studies-sub{
+    display: flex;
+}
+.studies-sub div:first-of-type{
+    width: 50%;
+}
+.studies-sub div:last-of-type{
+    width: 50%;
+}
+@media (max-width:1024){
+
 }
