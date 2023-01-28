@@ -28,7 +28,7 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 .works-logo{
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@
     margin: 1.2%;
 }
 .works-div4 img, .works-div5 img{
-    width: 50%;
+    width: 42%;
 }
 .works-div1 { grid-area: 1 / 1 / 2 / 3; }
 .works-img1{
