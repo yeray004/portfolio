@@ -11,7 +11,7 @@ function Home() {
             <section id='home' className='component-section home-container'>
                 <div className='home-logo-desc'>
                     <img src={logo} alt="Logo Yeray Guachetá"className='home-logo'  />
-                    <p className='home-desc'>Front-end web Developer y Auxiliar Administrativo.</p>
+                    <p className='home-desc'>Full-Stack web Developer y Auxiliar Administrativo.</p>
                 </div>
                 <img src={barras} alt="Barras" className="bck-icons" />
                 <img src={oreja} alt="Oreja" className="bck-icons" />
