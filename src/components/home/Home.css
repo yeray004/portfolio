@@ -1,6 +1,10 @@
 .home-container {
     margin-left: 70px;
 }
+.home-container p{
+    text-align: center;
+    width: 70%;
+}
 .home-logo-desc{
     width: 60%;
     height: fit-content;
