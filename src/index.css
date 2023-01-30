@@ -56,11 +56,6 @@ body{
   scroll-snap-align: start;
   scroll-margin-left: 70px;
 }
-.si{
-  width: 100%;
-  height: 500px;
-  background-color: #9FDFE4;
-}
 /* BACKGROUND */
 .bckg-fade{
   position: absolute;

@@ -17,7 +17,7 @@ function Home() {
                 <img src={oreja} alt="Oreja" className="bck-icons" />
                 <BackgroundHome/>
                 <div className='bckg-fade'></div>
-                <p>⚙️🛠️ Working on 🪚🔩... Meanwhile use the ⬅ ➡ of your keyboard or the Touchpad of your pc! (To left or rigth)</p>
+                <p className='workingOn'>⚙️🛠️ Working on 🪚🔩... Meanwhile use the ⬅ ➡ of your keyboard or the Touchpad of your pc! (To left or rigth)</p>
             </section>
         </>
     )

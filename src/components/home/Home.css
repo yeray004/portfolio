@@ -1,7 +1,7 @@
 .home-container {
     margin-left: 70px;
 }
-.home-container p{
+.home-container p:nth-child(6){
     text-align: center;
     width: 70%;
 }
@@ -55,6 +55,11 @@
         top: -5%;
         right: 8%;
     }
+    .home-container p:nth-child(6){
+        text-align: center;
+        width: 70%;
+        display: none;
+    }
 }
 @media (max-width: 767px) {
     .home-container {
@@ -64,6 +69,9 @@
     .home-logo-desc{
         width: 100%;
         padding-bottom: 40%;
+    }
+    .home-desc{
+        width: 80%;
     }
     .bck-icons{
         width: 50%;
