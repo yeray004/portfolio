@@ -4,11 +4,11 @@ function Contact() {
     return (
         <>
             <section id='contact' className='component-section'>
-                <h1 className='line-test'>Contact</h1>
+                <h1 className='line-test'>¡Trabajemos juntos!</h1>
                 <div className='contact-container'>
                     <div className="contactSeparate">
                         <p>E-mail📧</p>
-                        <p>yerayguacheta@gmail.com</p>
+                        <p><a href="mailto:yerayguacheta@gmail.com">yerayguacheta@gmail.com</a></p>
                     </div>
                     <div className="contactSeparate">
                         <p>Otras redes📲</p>
@@ -20,5 +20,7 @@ function Contact() {
         </>
     )
 }
-
+{/* <button>
+  <a href="mailto:tu_correo@gmail.com?subject=Asunto%20preestablecido">Enviar correo</a>
+</button> */}
 export default Contact

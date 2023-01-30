@@ -36,6 +36,7 @@
 }
 .works-text{
     margin: 5% 0%;
+    text-align: center;
 }
 .works-div1, .works-div2, .works-div3, .works-div4, .works-div5{
     margin: 2%;
@@ -84,5 +85,7 @@
     margin-top: 2%;
 }
 @media (max-width: 767px){
-
+    .works-parent{
+        width: 90%;
+    }
 }

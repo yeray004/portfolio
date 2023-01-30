@@ -1,21 +1,34 @@
+#contact h1{
+    font-size: clamp(4.4em,8vw, 9em);
+    text-align: center;
+    margin-top: 0px;
+}
 .contact-container{
     width: 70%;
     height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: end;
 }
+.contact-container p:first-of-type{
+    margin: 0%;
+}
 .contactSeparate:first-of-type{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .contactSeparate p:first-of-type{
-    font-size: clamp(.7em,3vw, 2.5em);
+    font-size: clamp(1.5em,2.5vw, 2.1em);
     font-weight: bold;
     font-style: italic;
 }
-.contact-container p, .contact-container a{
-    font-size: clamp(.7em,1.8vw, 2em);
+.contactSeparate p{
+    margin-bottom: 0px;
+}
+.contact-container p{
+    font-size: clamp(1em,1.6vw, 1.8em);
+}
+.contact-container a{
     text-decoration: none;
     color: white;
 }
@@ -29,4 +42,9 @@
 }
 .line-test:hover{
     background-size: 100% 2px;
+}
+@media (orientation: landscape) and (max-height:500px){
+    .contact-container{
+        justify-content: flex-start;
+    }
 }
