@@ -25,6 +25,9 @@
 .contactSeparate p{
     margin-bottom: 0px;
 }
+.email{
+    text-decoration: underline;
+}
 .contact-container p{
     font-size: clamp(1em,1.6vw, 1.8em);
 }

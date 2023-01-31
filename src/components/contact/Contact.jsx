@@ -8,7 +8,7 @@ function Contact() {
                 <div className='contact-container'>
                     <div className="contactSeparate">
                         <p>E-mail📧</p>
-                        <p><a href="mailto:yerayguacheta@gmail.com">yerayguacheta@gmail.com</a></p>
+                        <p className='email'><a href="mailto:yerayguacheta@gmail.com?subject=¡Trabajemos%20juntos!">yerayguacheta@gmail.com</a></p>
                     </div>
                     <div className="contactSeparate">
                         <p>Otras redes📲</p>

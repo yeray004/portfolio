@@ -1,17 +1,113 @@
-nav{
+header{
     position: fixed;
     width: 70px;
     height: 100%;
     z-index: 9999;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: saturate(180%) blur(10px);
+    background-image: url(./img/nois.gif);
+/*     background: rgba(0, 0, 0, 0.5); */
+transition: all .2s;
 }
-nav h1{
+header::before{
+    backdrop-filter: saturate(0%) blur(10px);
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+header label{
+    position: absolute;
+}
+header h1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-spacing: .3em;
+    writing-mode: vertical-lr;
+    font-size: clamp(4.4em,6vw, 7em);
+    font-weight: bolder;
     margin: 0;
 }
 @media (max-width: 767px) {
-    nav{
+    header{
         width: 100%;
         height: 50px;
     }
+}
+
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: saturate(0%) blur(10px);
+    width: 100vw;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-image: url(./img/nois.gif);
+    backdrop-filter: blur(10px);
+    transition: all 300ms ease;
+    transform: translateX(-100%);
+    opacity: 1 !important;
+}
+.cont-menu::before{
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+nav{
+    margin-bottom: 10%;
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    width: auto;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
 }
