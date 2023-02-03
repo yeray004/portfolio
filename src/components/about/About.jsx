@@ -15,7 +15,7 @@ function About() {
                         <p>Finalmente soy apasionado por el aprendizaje tanto en el ámbito social como en lo personal si de tecnología o habilidades blandas estamos hablando ;).</p>
                     </div>
                 </div>
-                <a className='cv-button' target='_blank' href="https://drive.google.com/file/d/1VDCvFRkHaL88gavkCEYrVT_x5fCNz9Qe/view?usp=sharing"> Mi CV</a>
+                <a className='cv-button' target='_blank' href="https://drive.google.com/file/d/1YM4GLkJrx0F3YtE8JYWHXZleqPi-vEiO/view?usp=sharing"> Mi CV</a>
             </section>
         </>
     )

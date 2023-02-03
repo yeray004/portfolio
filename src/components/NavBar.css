@@ -4,8 +4,7 @@ header{
     height: 100%;
     z-index: 9999;
     background-image: url(./img/nois.gif);
-/*     background: rgba(0, 0, 0, 0.5); */
-transition: all .2s;
+    transition: all .2s;
 }
 header::before{
     backdrop-filter: saturate(0%) blur(10px);
@@ -19,6 +18,7 @@ header label{
     position: absolute;
 }
 header h1{
+    cursor: pointer;
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,7 +26,7 @@ header h1{
     text-align: center;
     word-spacing: .3em;
     writing-mode: vertical-lr;
-    font-size: clamp(4.4em,6vw, 7em);
+    font-size: clamp(4.4em,6vw, 5em);
     font-weight: bolder;
     margin: 0;
 }
@@ -35,6 +35,27 @@ header h1{
         width: 100%;
         height: 50px;
     }
+    header h1{
+        writing-mode: horizontal-tb;
+        font-size: clamp(2em,6vw, 5em);
+        height: 50px;
+    }
+    header label{
+        width: 100%;
+        height: 10px;
+    }
+    .cont-menu{
+        max-width: 100% !important;
+        margin: 0%;
+        transform: translateY(0%) !important;
+    }
+    .cont-menu label{
+        width: auto !important;
+        height: auto !important;
+        right: 5px;
+        top: 10px;
+        z-index: inherit !important;
+    }
 }
 
 
@@ -42,6 +63,14 @@ header h1{
 #btn-menu{
     display: none;
 }
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+
 .container-menu{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
@@ -51,13 +80,9 @@ header h1{
     width: 100vw;
     height: 100vh;
     top: 0;left: 0;
-    transition: all 300ms ease;
+    transition: all .3s ease;
     opacity: 0;
     visibility: hidden;
-}
-#btn-menu:checked ~ .container-menu{
-    opacity: 1;
-    visibility: visible;
 }
 .cont-menu{
     width: 100%;
@@ -69,7 +94,7 @@ header h1{
     position: relative;
     background-image: url(./img/nois.gif);
     backdrop-filter: blur(10px);
-    transition: all 300ms ease;
+    transition: all .3s ease;
     transform: translateX(-100%);
     opacity: 1 !important;
 }
@@ -80,9 +105,6 @@ header h1{
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
-}
-#btn-menu:checked ~ .container-menu .cont-menu{
-    transform: translateX(0%);
 }
 nav{
     margin-bottom: 10%;
@@ -96,18 +118,21 @@ nav{
     text-decoration: none;
     padding: 20px;
     color: #fff;
-    border-left: 5px solid transparent;
-    transition: all 400ms ease;
+    transition: all .3s ease;
+
+    background-image: linear-gradient(90deg, rgba(159, 159, 159, 0.5),rgba(58, 58, 58, 0.5));
+    background-size: 0 100%;
+    background-repeat: no-repeat;
 }
 .cont-menu nav a:hover{
-    border-left: 5px solid #c7c7c7;
-    background: #1f1f1f;
+    background-size: 100% 100%;
 }
 .cont-menu label{
     position: absolute;
-    right: 5px;
-    top: 10px;
+    width: 100vw;
+    height: 100vh;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+    z-index: -1;
 }
