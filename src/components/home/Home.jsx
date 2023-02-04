@@ -1,4 +1,5 @@
 import './Home.css'
+import './HomeAnimation.css'
 import BackgroundHome from './BackgroundHome'
 // IMAGES
 import logo from '../img/Logo Yeray.png'
@@ -10,8 +11,8 @@ function Home() {
         <>
             <section id='home' className='component-section home-container'>
                 <div className='home-logo-desc'>
-                    <img src={logo} alt="Logo Yeray Guachetá"className='home-logo'  />
-                    <p className='home-desc'>¡Hola! Mi nombre es Yeray, Full-Stack web Developer.</p>
+                    <img src={logo} alt="Logo Yeray Guachetá"className='home-logo home-logo-animated'  />
+                    <p className='home-desc text-flicker-in-glow'>¡Hola! Mi nombre es Yeray, Full-Stack web Developer.</p>
                 </div>
                 <img src={barras} alt="Barras" className="bck-icons" />
                 <img src={oreja} alt="Oreja" className="bck-icons" />
