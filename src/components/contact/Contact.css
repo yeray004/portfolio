@@ -1,3 +1,18 @@
+/* .contact-bckg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: radial-gradient(22.29% 33.35% at 53.61% 52.15%, rgba(3, 84, 83, 0.54) 10.59%, rgba(16, 24, 32, 0) 84.55%, rgba(16, 24, 32, 0) 98.17%);
+    animation: rotacion 15s infinite;
+}
+@keyframes rotacion {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
 #contact h1{
     font-size: clamp(4.4em,8vw, 9em);
     text-align: center;

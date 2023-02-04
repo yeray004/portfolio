@@ -5,7 +5,7 @@ import imagenYeray from '../img/imagenYeray.png'
 function About() {
     return (
         <>
-            <section id='about' className='component-section about-bckg'>
+            <section id='about' className='component-section'>
                 <h1>Sobre mí</h1>
                 <div className='about-img-text'>
                     <img src={imagenYeray} alt="Imagen Yeray" className='about-img' />
@@ -16,6 +16,7 @@ function About() {
                     </div>
                 </div>
                 <a className='cv-button' target='_blank' href="https://drive.google.com/file/d/1YM4GLkJrx0F3YtE8JYWHXZleqPi-vEiO/view?usp=sharing"> Mi CV</a>
+                <div className='about-bckg'></div>
             </section>
         </>
     )

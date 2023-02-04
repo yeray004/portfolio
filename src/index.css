@@ -26,6 +26,7 @@ h3{
   --color-gadget-gray: #454A4C;
   --color-black-6-c: #101820;
   --color-purple: #560E87;
+  --color-gradient: linear-gradient(90deg, #035453, #560E87);
 }
 body{
   width: 100vw;
@@ -35,6 +36,10 @@ body{
   color: white;
   overflow: hidden;
   background-color: #101820;
+}
+*::-webkit-scrollbar {
+  width: 3px;
+  display: none;
 }
 .containter-main{
   position: relative;
@@ -62,7 +67,7 @@ body{
   position: absolute;
   width: calc(100vw - 60px);
   height: 100vh;
-  z-index: -998;
+  z-index: 0;
   background: linear-gradient(90deg, rgba(16,24,32,1) 1%, rgba(16,24,32,0.23783280402004547) 15%, rgba(16,24,32,0.06696445668110995) 85%, rgba(16,24,32,1) 99%);
 }
 /* MEDIA QUERYS */
@@ -96,13 +101,18 @@ body{
     background: linear-gradient(0deg, rgba(16,24,32,1) 1%, rgba(16,24,32,0.23783280402004547) 10%, rgba(16,24,32,0.06696445668110995) 90%, rgba(16,24,32,1) 99%);
   }
 }
-@media (orientation: landscape) and (max-height:692px){
+@media (orientation: landscape) and (max-height:500px){
   .component-section{
     width: 100vw;
     height: fit-content;
     margin-top: 4%;
     scroll-margin-left: 0px;
     scroll-margin-top: 40px;
+  }
+  .bckg-fade{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(16,24,32,1) 1%, rgba(16,24,32,0.23783280402004547) 10%, rgba(16,24,32,0.06696445668110995) 90%, rgba(16,24,32,1) 99%);
   }
 }
 @media (orientation: landscape) and (max-height: 414px){

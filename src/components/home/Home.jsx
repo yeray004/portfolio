@@ -11,13 +11,13 @@ function Home() {
             <section id='home' className='component-section home-container'>
                 <div className='home-logo-desc'>
                     <img src={logo} alt="Logo Yeray Guachetá"className='home-logo'  />
-                    <p className='home-desc'>Full-Stack web Developer y Auxiliar Administrativo.</p>
+                    <p className='home-desc'>¡Hola! Mi nombre es Yeray, Full-Stack web Developer.</p>
                 </div>
                 <img src={barras} alt="Barras" className="bck-icons" />
                 <img src={oreja} alt="Oreja" className="bck-icons" />
                 <BackgroundHome/>
-                <div className='bckg-fade'></div>
-                <p className='workingOn'>⚙️🛠️ Working on 🪚🔩... Use the ⬅ ➡ of your keyboard or Touchpad of your pc! (swipe to left or rigth)</p>
+                <div className='bckg-fade bckg-fade-home'></div>
+                <p className='workingOn'>⬅️➡️</p>
             </section>
         </>
     )

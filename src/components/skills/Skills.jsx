@@ -15,6 +15,7 @@ import figma from '../img/icons/figma.png'
 import trello from '../img/icons/trello.png'
 import canva from '../img/icons/canva.png'
 import davinci from '../img/icons/davinci.png'
+import nodejs from '../img/icons/nodejs.png'
 
 function Skills() {
     return (
@@ -36,6 +37,7 @@ function Skills() {
                         <div>
                             <h4>Backend😶‍🌫️</h4>
                             <ul>
+                                <li>Node.js <img src={nodejs} alt="icon" className="skills-icon" /></li>
                                 <li>MySQL <img src={mysql} alt="icon" className="skills-icon" /></li>
                                 <li>MongoDB <img src={mongodb} alt="icon" className="skills-icon" /></li>
                                 <li>Postman <img src={postman} alt="icon" className="skills-icon" /></li>

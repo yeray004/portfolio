@@ -33,6 +33,7 @@
     right: 8%;
 }
 
+
 @media (min-width: 1440px) {
     .home-logo-desc{
         width: 40%;
@@ -86,10 +87,17 @@
         top: 0%;
         right: -20%;
     }
+    .bckg-fade-home{
+        position: absolute;
+        top: 0 !important;
+    }
 }
 @media (max-width: 767px) and (orientation: landscape){
     .home-logo-desc{
         width: 50%;
         padding-bottom: 10%;
+    }
+    .home-logo{
+        width: 40%;
     }
 }

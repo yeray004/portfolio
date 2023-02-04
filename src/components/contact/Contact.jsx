@@ -16,6 +16,7 @@ function Contact() {
                         <p><a target='_blank' href="https://github.com/yeray004">GitHub</a></p>
                     </div>
                 </div>
+                <div className='contact-bckg'></div>
             </section>
         </>
     )

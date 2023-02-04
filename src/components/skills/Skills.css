@@ -13,6 +13,7 @@
     backdrop-filter: blur(2px);
     border-radius: 10px;
     align-items: center;
+    z-index: 999;
 }
 .blur-container h4{
     text-align: center;
@@ -49,6 +50,9 @@
 .skills-icon{
     width: .8em;
     height: auto;
+}
+.studies-main{
+    margin-bottom: 10px;
 }
 .studies-sub{
     display: flex;

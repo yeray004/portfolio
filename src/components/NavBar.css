@@ -45,9 +45,10 @@ header h1{
         height: 10px;
     }
     .cont-menu{
+        height: 50vh !important;
         max-width: 100% !important;
         margin: 0%;
-        transform: translateY(0%) !important;
+        transform: translateY(-100%) !important;
     }
     .cont-menu label{
         width: auto !important;
@@ -55,6 +56,12 @@ header h1{
         right: 5px;
         top: 10px;
         z-index: inherit !important;
+    }
+    .cont-menu a{
+        text-align: center;
+    }
+    #btn-menu:checked ~ .container-menu .cont-menu{
+        transform: translateY(-0%) !important;
     }
 }
 
@@ -76,7 +83,7 @@ header h1{
     background-color: rgba(0, 0, 0, 0.1);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: saturate(0%) blur(10px);
+    backdrop-filter: saturate(0%) blur(3px);
     width: 100vw;
     height: 100vh;
     top: 0;left: 0;
@@ -107,7 +114,8 @@ header h1{
     background: rgba(0, 0, 0, 0.5);
 }
 nav{
-    margin-bottom: 10%;
+    margin: 0% 0 10% 0;
+    padding: 0%;
 }
 .cont-menu nav{
     transform: translateY(15%);
