@@ -101,3 +101,8 @@
         width: 40%;
     }
 }
+@media (orientation: landscape) and (max-height:700px){
+    .home-logo{
+        width: 40%;
+    }
+}
