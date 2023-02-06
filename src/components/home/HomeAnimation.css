@@ -1,10 +1,10 @@
 /* Animation test */
 .text-flicker-in-glow {
-    -webkit-animation: text-flicker-in-glow 4s linear 1s both;
-    animation: text-flicker-in-glow 4s linear 1s both;
+    -webkit-animation: text-flicker-in-glow 4s linear 0s both;
+    animation: text-flicker-in-glow 4s linear 0s both;
 }
 .home-logo-animated{
-    animation: wolf .5s linear 5s both;
+    animation: wolf .5s linear 4s both;
 }
 @keyframes wolf {
     from {
@@ -23,15 +23,6 @@
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
-/**
- * ----------------------------------------
- * animation text-flicker-in-glow
- * ----------------------------------------
- */
-/* @keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
-} */
 @-webkit-keyframes text-flicker-in-glow {
     0% {
         opacity: 0;
