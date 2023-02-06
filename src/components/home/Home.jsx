@@ -18,7 +18,7 @@ function Home() {
                 <img src={oreja} alt="Oreja" className="bck-icons" />
                 <BackgroundHome/>
                 <div className='bckg-fade bckg-fade-home'></div>
-                <p className='workingOn'>⬅️➡️</p>
+                <p className='workingOn'>¡Usa la flechas de tu teclado para navegar! ⬅️➡️</p>
             </section>
         </>
     )

@@ -15,7 +15,7 @@ function NavBar() {
                                 <a href="#skills">// Skills</a>
                                 <a href="#contact">// Contact</a>
                             </nav>
-                            <label for="btn-menu">✖️</label>
+                            <label htmlFor='btn-menu'>✖️</label>
                         </div>
                     </div>
             </header>

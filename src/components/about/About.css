@@ -1,12 +1,12 @@
-/* .about-bckg{
+.about-bckg{
     width: 100vw;
     height: 100vh;
     position: absolute;
     background: radial-gradient(50% 50% at 50% 50%, #560E87 6.6%, rgba(16, 24, 32, 0) 70.85%);
     animation: rotacion 15s infinite;
-    z-index: -100;
+    z-index: -999;
 }
-@keyframes rotacion {
+/* @keyframes rotacion {
     from{
         transform: rotate(0);
     }

@@ -2,7 +2,7 @@ header{
     position: fixed;
     width: 70px;
     height: 100%;
-    z-index: 9999;
+    z-index: 998;
     background-image: url(./img/nois.gif);
     transition: all .2s;
 }
