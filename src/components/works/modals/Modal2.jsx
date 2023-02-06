@@ -2,7 +2,7 @@ import cripto from '../../img/works/criptoDashboard.jpg'
 import figma from '../../img/icons/figma.png'
 import html from '../../img/icons/html.png'
 import css from '../../img/icons/css.png'
-import javascript from '../../img/icons/javascript.png'
+import javascript from '../../img/icons/javaScript.png'
 import react from '../../img/icons/react.png'
 import redux from '../../img/icons/redux.png'
 
