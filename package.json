@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "theme_color": "#101820",
+  "icons": [
+    {
+      "purpose": "any maskable"
+    }
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

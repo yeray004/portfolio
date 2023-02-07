@@ -1,6 +1,7 @@
 import './About.css'
 //IMAGE
 import imagenYeray from '../img/imagenYeray.png'
+import AboutBackground from './AboutBackground'
 
 function About() {
     return (
@@ -16,7 +17,8 @@ function About() {
                     </div>
                 </div>
                 <a className='cv-button' target='_blank' href="https://drive.google.com/file/d/1YM4GLkJrx0F3YtE8JYWHXZleqPi-vEiO/view?usp=sharing"> Mi CV</a>
-                <div className='about-bckg'></div>
+                <AboutBackground/>
+                <div className='bckg-fade'></div>
             </section>
         </>
     )

@@ -4,7 +4,7 @@ function BackgroundHome() {
     return (
         <>
         {/* Animated Background */}
-            <div class="background-home">
+            <div className='background-home'>
                 <span></span>
                 <span></span>
                 <span></span>

@@ -5,6 +5,7 @@ h1, h2, h3{
   margin: 0;
   font-weight: 400;
   font-family: 'Italianno', cursive;
+  z-index: 100;
 }
 h1, h2{
   font-size: clamp(4.4em,6vw, 7em);
