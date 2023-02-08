@@ -5,6 +5,7 @@ import BackgroundHome from './BackgroundHome'
 import logo from '../img/Logo Yeray.png'
 import barras from '../img/barras.png'
 import oreja from '../img/oreja.png'
+import { FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 
 function Home() {
     return (
@@ -18,7 +19,7 @@ function Home() {
                 <img src={oreja} alt="Oreja" className="bck-icons" />
                 <BackgroundHome/>
                 <div className='bckg-fade bckg-fade-home'></div>
-                <p className='workingOn'>¡Usa la flechas de tu teclado para navegar! ⬅️➡️</p>
+                <p>¡Usa la flechas de tu teclado para navegar! <FiArrowLeftCircle/><FiArrowRightCircle/></p>
             </section>
         </>
     )

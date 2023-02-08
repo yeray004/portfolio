@@ -64,3 +64,18 @@ hr{
         width: 22px;
     }
 }
+@media (orientation: landscape) and (max-height:692px){
+    footer{
+        width: 200px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 9px;
+    }
+    hr{
+        width: 15px;
+    }
+    .footer-icon{
+        width: 22px;
+    }
+}

@@ -1,4 +1,5 @@
 import './Contact.css'
+import { FiExternalLink } from "react-icons/fi";
 
 function Contact() {
     return (
@@ -12,8 +13,8 @@ function Contact() {
                     </div>
                     <div className="contactSeparate">
                         <p>Otras redes📲</p>
-                        <p><a target='_blank' href="https://www.linkedin.com/in/yeray-guachet%C3%A1-carre%C3%B1o/">LinkedIn</a></p>
-                        <p><a target='_blank' href="https://github.com/yeray004">GitHub</a></p>
+                        <p><a target='_blank' href="https://www.linkedin.com/in/yeray-guachet%C3%A1-carre%C3%B1o/">LinkedIn <FiExternalLink/></a></p>
+                        <p><a target='_blank' href="https://github.com/yeray004">GitHub <FiExternalLink/></a></p>
                     </div>
                 </div>
                 <div className='contact-bckg'></div>

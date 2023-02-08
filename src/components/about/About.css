@@ -119,6 +119,6 @@
 }
 @media (orientation: landscape) and (max-height:692px){
     .about-img-text{
-        width: 40%;
+        width: 50%;
     }
 }
