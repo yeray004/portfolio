@@ -2,6 +2,7 @@ import formula from '../../img/works/Formula2Vie.png'
 import figma from '../../img/icons/figma.png'
 import html from '../../img/icons/html.png'
 import css from '../../img/icons/css.png'
+import bootstrap from '../../img/icons/bootstrap.png'
 import javascript from '../../img/icons/javaScript.png'
 import react from '../../img/icons/react.png'
 import redux from '../../img/icons/redux.png'
@@ -24,6 +25,7 @@ function Modal1({isOpen, closeModal}) {
                             <img src={figma} className='modal-icon' alt="Figma" />
                             <img src={html} className='modal-icon' alt="HTML" />
                             <img src={css} className='modal-icon' alt="CSS" />
+                            <img src={bootstrap} className='modal-icon' alt="Bootstrap" />
                             <img src={javascript} className='modal-icon' alt="JavaScript" />
                             <img src={react} className='modal-icon' alt="React" />
                             <img src={redux} className='modal-icon' alt="Redux" />

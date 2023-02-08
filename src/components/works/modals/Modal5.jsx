@@ -1,10 +1,6 @@
 import sabujcha from '../../img/works/SabujCha.png'
-import figma from '../../img/icons/figma.png'
 import html from '../../img/icons/html.png'
 import css from '../../img/icons/css.png'
-import javascript from '../../img/icons/javaScript.png'
-import react from '../../img/icons/react.png'
-import redux from '../../img/icons/redux.png'
 
 function Modal5({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()
@@ -18,19 +14,15 @@ function Modal5({isOpen, closeModal}) {
                     </div>
                     <div>
                         <h4>SabujCha</h4>
-                        <p>Formula2Vie es una idea qué surgió a raíz de la preocupación sobre el orígen y uso de diferentes tipos de cosméticos usados sobre nuestro cuerpo, es una alternativa diferente a la línea de cosmética tradicional e industrializada. La primicia fué inicializada gracias al trabajo de una jóven, Angie Herrera ingeniera química hizo posible el desarrollo de este proyecto con sus conocimientos, desarrollando la idea a comienzos del 2017 y avanzando poco a poco desde su entonces; a día de hoy contando con un punto de fábrica/producción, donde elaboran todos sus productos.</p>
+                        <p>Primer proyecto elaborando una landing page responsive desde 0, haciendo uso de HTML y CSS vanilla. Por medio de estilos se desarrolló en su totalidad la vista con los recursos brindados, y el requerimientos manejando la motodología SCRUM, respetando el diseño de los mockups, y responsive 100% funcional en todos los dispositivos.</p>
                         <p>Tipo de Proyecto: Front-end, unipersonal.</p>
                         <div>
-                            <img src={figma} className='modal-icon' alt="Figma" />
                             <img src={html} className='modal-icon' alt="HTML" />
                             <img src={css} className='modal-icon' alt="CSS" />
-                            <img src={javascript} className='modal-icon' alt="JavaScript" />
-                            <img src={react} className='modal-icon' alt="React" />
-                            <img src={redux} className='modal-icon' alt="Redux" />
                         </div>
                         <div>
-                            <a href="https://formula2-vie.vercel.app/" target='_blank' className='modal-button'>Deploy</a>
-                            <a href="https://github.com/yeray004/Formula2Vie.git" target='_blank' className='modal-button'>GitHub</a>
+                            <a href="https://yeray004.github.io/SabujCha/" target='_blank' className='modal-button'>Deploy</a>
+                            <a href="https://github.com/yeray004/SabujCha.git" target='_blank' className='modal-button'>GitHub</a>
                         </div>
                     </div>
                 </div>
