@@ -50,6 +50,7 @@
 .skills-icon{
     width: .8em;
     height: auto;
+    transition: all;
 }
 .studies-main{
     margin-bottom: 10px;

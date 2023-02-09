@@ -1,4 +1,5 @@
 import './Skills.css'
+import './SkillsAnimation.css'
 //IMAGES
 import html from '../img/icons/html.png'
 import css from '../img/icons/css.png'
@@ -17,11 +18,19 @@ import canva from '../img/icons/canva.png'
 import davinci from '../img/icons/davinci.png'
 import nodejs from '../img/icons/nodejs.png'
 
+import { useEffect } from 'react'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Skills() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <>
             <section id='skills' className='component-section skills-bckg'>
-                <div className="blur-container">
+                <div className="blur-container" data-aos="zoom-in">
                     <h3 >Habilidades</h3>
                     <div className='skills-container-1'>
                         <div>
@@ -56,7 +65,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-                <div className="blur-container">
+                <div className="blur-container" data-aos="zoom-in">
                     <h3>Estudios</h3>
                     <div className='skills-container-2'>
                         <div className='studies-main'>
