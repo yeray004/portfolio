@@ -1,10 +1,19 @@
 import './NavBar.css'
+import { BiHomeAlt } from "react-icons/bi";
+import { IoWalkOutline } from "react-icons/io5";
+import { GrWorkshop } from "react-icons/gr";
+import { VscTools } from "react-icons/vsc";
+import { MdOutlineContactPhone } from "react-icons/md";
 
 function NavBar() {
     return (
         <>
             <header className='nav-bar-container'>
-            <label htmlFor="btn-menu"><h1>. . .</h1></label>
+            <label htmlFor="btn-menu">
+                <div className='icon-nav'>
+                    <BiHomeAlt/><IoWalkOutline/><GrWorkshop/><VscTools/><MdOutlineContactPhone/>
+                </div>
+            </label>
                 <input type="checkbox" id="btn-menu"/>
                     <div className="container-menu">
                         <div className="cont-menu">

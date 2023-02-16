@@ -3,6 +3,24 @@
     text-align: center;
     margin-top: 0px;
 }
+.relative-icon{
+    position: relative;
+}
+.contact-icon{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    bottom: -7%;
+    left: 10%;
+}
+.contact-icon svg{
+    width: 50%;
+    height: auto;
+    color: var(--color-black-6-c);
+}
+.contact-icon svg{
+    stroke: rgba(red, green, blue, alpha);
+}
 .contact-container{
     width: 70%;
     height: 60%;
