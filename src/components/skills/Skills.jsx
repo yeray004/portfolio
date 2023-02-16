@@ -3,7 +3,7 @@ import './SkillsAnimation.css'
 //IMAGES
 import html from '../img/icons/html.webp'
 import css from '../img/icons/css.webp'
-import javaScript from '../img/icons/javaScript.webp'
+import javaScript from '../img/icons/javascript.webp'
 import react from '../img/icons/react.webp'
 import bootstrap from '../img/icons/bootstrap.webp'
 import bash from '../img/icons/bash.webp'

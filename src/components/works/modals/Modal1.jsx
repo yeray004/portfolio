@@ -3,7 +3,7 @@ import figma from '../../img/icons/figma.webp'
 import html from '../../img/icons/html.webp'
 import css from '../../img/icons/css.webp'
 import bootstrap from '../../img/icons/bootstrap.webp'
-import javascript from '../../img/icons/javaScript.webp'
+import javascript from '../../img/icons/javascript.webp'
 import react from '../../img/icons/react.webp'
 import redux from '../../img/icons/redux.webp'
 

@@ -5,7 +5,7 @@ import logoFormula2Vie from '../img/works/logoFormula2Vie.webp'
 import logoBitcoin from '../img/works/logoBitcoin.webp'
 import logoBunny from '../img/works/logoBunny.webp'
 import logoTetris from '../img/works/logoTetris.webp'
-import logoSabujCha from '../img/works/logoSabujCha.webp'
+import logoSabujCha from '../img/works/logosabujcha.webp'
 import { useState } from 'react'
 //COMPONENTS
 import Modal1 from './modals/Modal1'

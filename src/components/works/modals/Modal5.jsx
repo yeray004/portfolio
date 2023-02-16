@@ -1,4 +1,4 @@
-import sabujcha from '../../img/works/SabujCha.webp'
+import sabujcha from '../../img/works/sabujcha.webp'
 import html from '../../img/icons/html.webp'
 import css from '../../img/icons/css.webp'
 
