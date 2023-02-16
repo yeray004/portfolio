@@ -1,7 +1,7 @@
 import './Works.css'
 import './modals/Modal.css'
 //IMAGES
-import logoFormula2Vie from '../img/works/logoformula2vie.webp'
+import logoFormula2Vie from '../img/works/logoformulavie.webp'
 import logoBitcoin from '../img/works/logobitcoin.webp'
 import logoBunny from '../img/works/logobunny.webp'
 import logoTetris from '../img/works/logotetris.webp'
