@@ -1,4 +1,4 @@
-import cripto from '../../img/works/criptoDashboard.webp'
+import cripto from '../../img/works/criptodashboard.webp'
 import figma from '../../img/icons/figma.webp'
 import html from '../../img/icons/html.webp'
 import css from '../../img/icons/css.webp'

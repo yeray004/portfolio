@@ -1,10 +1,10 @@
 import './Works.css'
 import './modals/Modal.css'
 //IMAGES
-import logoFormula2Vie from '../img/works/logoFormula2Vie.webp'
-import logoBitcoin from '../img/works/logoBitcoin.webp'
-import logoBunny from '../img/works/logoBunny.webp'
-import logoTetris from '../img/works/logoTetris.webp'
+import logoFormula2Vie from '../img/works/logoformula2vie.webp'
+import logoBitcoin from '../img/works/logobitcoin.webp'
+import logoBunny from '../img/works/logobunny.webp'
+import logoTetris from '../img/works/logotetris.webp'
 import logoSabujCha from '../img/works/logosabujcha.webp'
 import { useState } from 'react'
 //COMPONENTS

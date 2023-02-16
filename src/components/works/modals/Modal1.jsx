@@ -1,4 +1,4 @@
-import formula from '../../img/works/Formula2Vie.webp'
+import formula from '../../img/works/formula2vie.webp'
 import figma from '../../img/icons/figma.webp'
 import html from '../../img/icons/html.webp'
 import css from '../../img/icons/css.webp'
