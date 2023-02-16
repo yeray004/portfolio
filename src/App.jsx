@@ -7,7 +7,14 @@ import Contact from './components/contact/Contact'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+}, [])
   return (
     <>
       <main className='containter-main'>

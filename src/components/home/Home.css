@@ -18,7 +18,7 @@
     align-items: center;
 }
 .home-logo{
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 .home-desc{
@@ -84,17 +84,13 @@
         position: absolute;
     }
     .bck-icons:nth-of-type(1){
-        bottom: 80%;
+        bottom: 81%;
         left: -30%;
         transform: rotate(45deg);
     }
     .bck-icons:nth-of-type(2){
         top: 0%;
         right: -20%;
-    }
-    .bckg-fade-home{
-        position: absolute;
-        top: 0 !important;
     }
 }
 @media (max-width: 767px) and (orientation: landscape){

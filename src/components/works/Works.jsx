@@ -1,11 +1,11 @@
 import './Works.css'
 import './modals/Modal.css'
 //IMAGES
-import logoFormula2Vie from '../img/works/logoFormula2Vie.png'
-import logoBitcoin from '../img/works/logoBitcoin.png'
-import logoBunny from '../img/works/logoBunny.png'
-import logoTetris from '../img/works/logoTetris.png'
-import logoSabujCha from '../img/works/logoSabujCha.png'
+import logoFormula2Vie from '../img/works/logoFormula2Vie.webp'
+import logoBitcoin from '../img/works/logoBitcoin.webp'
+import logoBunny from '../img/works/logoBunny.webp'
+import logoTetris from '../img/works/logoTetris.webp'
+import logoSabujCha from '../img/works/logoSabujCha.webp'
 import { useState } from 'react'
 //COMPONENTS
 import Modal1 from './modals/Modal1'
@@ -39,7 +39,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Formula2Vie</p>
-                        <button onClick={openModal1}></button>
+                        <button title='button' onClick={openModal1}></button>
                     </div>
                     <div className="works-div2">
                         <div className='works-img-logo works-img2'>
@@ -48,7 +48,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Cripto Dashboard</p>
-                        <button onClick={openModal2}></button>
+                        <button title='button' onClick={openModal2}></button>
                     </div>
                     <div className="works-div3">
                         <div className='works-img-logo works-img3'>
@@ -57,7 +57,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Whell of Happy Bunny</p>
-                        <button onClick={openModal3}></button>
+                        <button title='button' onClick={openModal3}></button>
                     </div>
                     <div className="works-div4">
                         <div className='works-img-logo works-img4'>
@@ -66,7 +66,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Tetris</p>
-                        <button onClick={openModal4}></button>
+                        <button title='button' onClick={openModal4}></button>
                     </div>
                     <div className="works-div5">
                         <div className='works-img-logo works-img5'>
@@ -75,7 +75,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>SabujCha</p>
-                        <button onClick={openModal5}></button>
+                        <button title='button' onClick={openModal5}></button>
                     </div>
                 </div>
                 <h1>Work</h1>

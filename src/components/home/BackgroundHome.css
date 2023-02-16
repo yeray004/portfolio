@@ -115,3 +115,8 @@
         transform: translate3d(0, 0, 1px) rotate(360deg);
     }
 }
+@media (max-width: 767px){
+    .background-home{
+        height: calc(100vh + 50px);
+    }
+}

@@ -3,7 +3,7 @@ header{
     width: 70px;
     height: 100%;
     z-index: 998;
-    background-image: url(./img/nois.gif);
+    background-image: url(./img/noise.gif);
     transition: all .2s;
 }
 header::before{
@@ -99,7 +99,7 @@ header h1{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background-image: url(./img/nois.gif);
+    background-image: url(./img/noise.gif);
     backdrop-filter: blur(10px);
     transition: all .3s ease;
     transform: translateX(-100%);

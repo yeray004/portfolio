@@ -1,32 +1,24 @@
 import './Skills.css'
 import './SkillsAnimation.css'
 //IMAGES
-import html from '../img/icons/html.png'
-import css from '../img/icons/css.png'
-import javaScript from '../img/icons/javaScript.png'
-import react from '../img/icons/react.png'
-import bootstrap from '../img/icons/bootstrap.png'
-import bash from '../img/icons/bash.png'
-import mysql from '../img/icons/mysql.png'
-import mongodb from '../img/icons/mongodb.png'
-import postman from '../img/icons/postman.png'
-import GitHub from '../img/icons/github.png'
-import vsCode from '../img/icons/vsCode.png'
-import figma from '../img/icons/figma.png'
-import trello from '../img/icons/trello.png'
-import canva from '../img/icons/canva.png'
-import davinci from '../img/icons/davinci.png'
-import nodejs from '../img/icons/nodejs.png'
-
-import { useEffect } from 'react'
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import html from '../img/icons/html.webp'
+import css from '../img/icons/css.webp'
+import javaScript from '../img/icons/javaScript.webp'
+import react from '../img/icons/react.webp'
+import bootstrap from '../img/icons/bootstrap.webp'
+import bash from '../img/icons/bash.webp'
+import mysql from '../img/icons/mysql.webp'
+import mongodb from '../img/icons/mongodb.webp'
+import postman from '../img/icons/postman.webp'
+import GitHub from '../img/icons/github.webp'
+import vsCode from '../img/icons/vsCode.webp'
+import figma from '../img/icons/figma.webp'
+import trello from '../img/icons/trello.webp'
+import canva from '../img/icons/canva.webp'
+import davinci from '../img/icons/davinci.webp'
+import nodejs from '../img/icons/nodejs.webp'
 
 function Skills() {
-    useEffect(() => {
-        AOS.init();
-    }, [])
     return (
         <>
             <section id='skills' className='component-section skills-bckg'>

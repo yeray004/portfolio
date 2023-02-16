@@ -1,9 +1,9 @@
-import cripto from '../../img/works/criptoDashboard.jpg'
-import figma from '../../img/icons/figma.png'
-import html from '../../img/icons/html.png'
-import css from '../../img/icons/css.png'
-import javascript from '../../img/icons/javaScript.png'
-import react from '../../img/icons/react.png'
+import cripto from '../../img/works/criptoDashboard.webp'
+import figma from '../../img/icons/figma.webp'
+import html from '../../img/icons/html.webp'
+import css from '../../img/icons/css.webp'
+import javascript from '../../img/icons/javaScript.webp'
+import react from '../../img/icons/react.webp'
 
 function Modal2({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()

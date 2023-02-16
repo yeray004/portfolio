@@ -1,7 +1,7 @@
 import './Footer.css'
 //IMAGES
-import git from './img/GitHub.png'
-import linkedIn from './img/LinkedIn.png'
+import git from './img/GitHub.webp'
+import linkedIn from './img/LinkedIn.webp'
 
 function Footer() {
     return (

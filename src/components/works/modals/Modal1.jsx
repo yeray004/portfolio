@@ -1,11 +1,11 @@
-import formula from '../../img/works/Formula2Vie.png'
-import figma from '../../img/icons/figma.png'
-import html from '../../img/icons/html.png'
-import css from '../../img/icons/css.png'
-import bootstrap from '../../img/icons/bootstrap.png'
-import javascript from '../../img/icons/javaScript.png'
-import react from '../../img/icons/react.png'
-import redux from '../../img/icons/redux.png'
+import formula from '../../img/works/Formula2Vie.webp'
+import figma from '../../img/icons/figma.webp'
+import html from '../../img/icons/html.webp'
+import css from '../../img/icons/css.webp'
+import bootstrap from '../../img/icons/bootstrap.webp'
+import javascript from '../../img/icons/javaScript.webp'
+import react from '../../img/icons/react.webp'
+import redux from '../../img/icons/redux.webp'
 
 function Modal1({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()

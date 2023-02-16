@@ -1,6 +1,6 @@
-import sabujcha from '../../img/works/SabujCha.png'
-import html from '../../img/icons/html.png'
-import css from '../../img/icons/css.png'
+import sabujcha from '../../img/works/SabujCha.webp'
+import html from '../../img/icons/html.webp'
+import css from '../../img/icons/css.webp'
 
 function Modal5({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()
