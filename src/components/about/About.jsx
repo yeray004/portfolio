@@ -1,6 +1,6 @@
 import './About.css'
 //IMAGE
-import imagenYeray from '../img/imagenyeray.webp'
+import imagenYeray from '../img/imagenyeray1.webp'
 import AboutBackground from './AboutBackground'
 
 function About() {

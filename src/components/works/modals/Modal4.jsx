@@ -1,8 +1,8 @@
-import tetris from '../../img/works/tetris.webp'
-import figma from '../../img/icons/figma.webp'
-import html from '../../img/icons/html.webp'
-import css from '../../img/icons/css.webp'
-import javascript from '../../img/icons/javascript.webp'
+import tetris from '../../img/works/tetris1.webp'
+import figma from '../../img/icons/figma1.webp'
+import html from '../../img/icons/html1.webp'
+import css from '../../img/icons/css1.webp'
+import javascript from '../../img/icons/javascript1.webp'
 
 function Modal4({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()

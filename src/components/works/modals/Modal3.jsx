@@ -1,9 +1,9 @@
-import wheelOfHappyBunny from '../../img/works/wheelofhappybunny.webp'
-import figma from '../../img/icons/figma.webp'
-import html from '../../img/icons/html.webp'
-import css from '../../img/icons/css.webp'
-import bootstrap from '../../img/icons/bootstrap.webp'
-import javascript from '../../img/icons/javascript.webp'
+import wheelOfHappyBunny from '../../img/works/wheelofhappybunny1.webp'
+import figma from '../../img/icons/figma1.webp'
+import html from '../../img/icons/html1.webp'
+import css from '../../img/icons/css1.webp'
+import bootstrap from '../../img/icons/bootstrap1.webp'
+import javascript from '../../img/icons/javascript1.webp'
 
 function Modal3({isOpen, closeModal}) {
     const handleClose = e => e.stopPropagation()

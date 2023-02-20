@@ -2,9 +2,9 @@ import './Home.css'
 import './HomeAnimation.css'
 import BackgroundHome from './BackgroundHome'
 // IMAGES
-import logo from '../img/logo-yeray.webp'
-import barras from '../img/barras.webp'
-import oreja from '../img/oreja.webp'
+import logo from '../img/logo-yeray1.webp'
+import barras from '../img/barras1.webp'
+import oreja from '../img/oreja1.webp'
 import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi';
 
 function Home() {
