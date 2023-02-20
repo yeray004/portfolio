@@ -18,9 +18,6 @@
     height: auto;
     color: var(--color-black-6-c);
 }
-.contact-icon svg{
-    stroke: rgba(red, green, blue, alpha);
-}
 .contact-container{
     width: 70%;
     height: 60%;
@@ -57,16 +54,29 @@
     border-radius: 5px;
     border-bottom: solid 2px #fff;
 }
-.line-test{
+.down-line{
     margin: 10px;
-    background-image: linear-gradient(90deg, rgb(0, 107, 99),rgb(0, 47, 128),rgb(67, 0, 143));
+    background-image: linear-gradient(90deg, rgb(0, 107, 99),rgb(0, 107, 99),rgb(0, 107, 99));
     background-repeat: no-repeat;
-    background-size: 0% 2px;
-    background-position: left bottom;
-    transition: background-size .3s ease-in-out;
+    background-size: 90% 5px;
+    background-position: 50% 80%;
+    transition: background-size .18s ease-in-out;
 }
-.line-test:hover{
-    background-size: 100% 2px;
+.down-line-sub{
+    margin: 10px;
+    background-image: linear-gradient(90deg, rgb(0, 107, 99),rgb(0, 107, 99),rgb(0, 107, 99));
+    background-repeat: no-repeat;
+    background-size: 35% 3px;
+    background-position: 100% 100%;
+    transition: background-size .18s ease-in-out;
+}
+.down-line:hover{
+    background-size: 100% 3px;
+}
+@media (max-width:500px){
+    .down-line-sub{
+        background-size: 60% 2px;
+    }
 }
 @media (orientation: landscape) and (max-height:500px){
     .contact-container{

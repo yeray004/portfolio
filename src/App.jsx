@@ -15,6 +15,7 @@ function App() {
   useEffect(() => {
     AOS.init();
 }, [])
+
   return (
     <>
       <main className='containter-main'>

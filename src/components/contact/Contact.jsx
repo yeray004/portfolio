@@ -6,14 +6,14 @@ function Contact() {
     return (
         <>
             <section id='contact' className='component-section relative-icon'>
-                <h1>¡Trabajemos juntos!</h1>
+                <h1 className='down-line'>¡Trabajemos juntos!</h1>
                 <div className='contact-container'>
                     <div className="contactSeparate">
-                        <p>E-mail📧</p>
+                        <p className='down-line-sub'>E-mail📧</p>
                         <p><a href="mailto:yerayguacheta@gmail.com?subject=¡Trabajemos%20juntos!">yerayguacheta@gmail.com</a></p>
                     </div>
                     <div className="contactSeparate">
-                        <p>Otras redes📲</p>
+                        <p className='down-line-sub'>Otras redes📲</p>
                         <p><a target='_blank' href="https://www.linkedin.com/in/yeray-guachet%C3%A1-carre%C3%B1o/">LinkedIn <FiExternalLink/></a></p>
                         <p><a target='_blank' href="https://github.com/yeray004">GitHub <FiExternalLink/></a></p>
                     </div>

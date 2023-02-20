@@ -10,19 +10,19 @@
 .AboutBackground:nth-child(2) {
     -webkit-box-shadow: 0 0 5vmax 5vmax var(--color-purple);
     box-shadow: 0 0 25vmax 25vmax var(--color-purple);
-    animation: hue 20s 0s linear infinite, move1 29s 0s linear infinite;
+    animation: hue 13s 0s linear infinite, move1 22s 0s linear infinite;
 }
 
 .AboutBackground:nth-child(3) {
     -webkit-box-shadow: 0 0 5vmax 5vmax var(--color-purple);
     box-shadow: 0 0 25vmax 25vmax var(--color-purple);
-    animation: hue 25s 0s linear infinite, move2 35s 0s linear infinite;
+    animation: hue 18s 0s linear infinite, move2 28s 0s linear infinite;
 }
 
 .AboutBackground:nth-child(4) {
     -webkit-box-shadow: 0 0 15vmax 15vmax var(--color-purple);
     box-shadow: 0 0 25vmax 25vmax var(--color-purple);
-    animation: hue 30s 0s linear infinite, move3 25s 0s linear infinite;
+    animation: hue 23s 0s linear infinite, move3 18s 0s linear infinite;
     opacity: .5;
 }
 @-webkit-keyframes move1 {

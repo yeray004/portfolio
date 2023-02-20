@@ -33,6 +33,12 @@ header .icon-nav{
 .icon-nav svg{
     width: 30%;
     height: auto;
+    transition: all;
+}
+.icon-nav svg:hover{
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 }
 .icon-nav svg path{
     stroke: #fff;
