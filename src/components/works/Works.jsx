@@ -4,7 +4,7 @@ import './modals/Modal.css'
 import logoFormula2Vie from '../img/works/logoformulavie1.webp'
 import logoBitcoin from '../img/works/logobitcoin1.webp'
 import logoBunny from '../img/works/logobunny1.webp'
-import logoTetris from '../img/works/logotetris1.webp'
+import logoTetris from '../img/works/logotetris12.webp'
 import logoSabujCha from '../img/works/logosabujcha1.webp'
 import { useState } from 'react'
 //COMPONENTS
