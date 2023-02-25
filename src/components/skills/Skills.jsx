@@ -64,8 +64,8 @@ function Skills() {
                             <h4>🎓</h4>
                             <ul>
                                 <li>Educamas - Simplone.co / Prográmate Academy - FullStack web Developer (2023)</li>
-                                <li>CUN (Corporación Unificada Nacional de Educación Superior) - Técnico Profesional en Procesos Administrativos (2021)</li>
-                                <li>Colegio Santa Luisa - Bachillerato (2021)</li>
+                                <li>Egg Cooperation - Programación desde Cero Latam (2023)</li>
+                                <li>Corporación Unificada Nacional de Educación Superior - Técnico Profesional en Procesos Administrativos (2021)</li>
                             </ul>
                         </div>
                         <div className='studies-sub'>

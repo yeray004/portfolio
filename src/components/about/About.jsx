@@ -11,7 +11,7 @@ function About() {
                 <div className='about-img-text'>
                     <img src={imagenYeray} alt="Imagen Yeray" className='about-img' />
                     <div className='about-text'>
-                        <p>¡Hola! Me llamo Yeray Guachetá y tengo 18 años. Soy desarrollador web Full-Stack y Auxiliar administrativo Colombiano interesado en el mundo de la industria tecnológica así  como en el campo administrativo.</p>
+                        <p>¡Hola! Me llamo Yeray Guachetá. Soy desarrollador web Full-Stack y Auxiliar administrativo Colombiano interesado en el mundo de la industria tecnológica así  como en el campo administrativo.</p>
                         <p>Disfruto escuchar todo tipo de música y explorar mi lado creativo a través de esta y la fotografía.</p>
                         <p>Apasionado por el aprendizaje tanto en el ámbito social como en lo personal si de tecnología o habilidades blandas estamos hablando ;).</p>
                     </div>

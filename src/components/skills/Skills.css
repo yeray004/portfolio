@@ -30,13 +30,14 @@
 .blur-container h4{
     margin: 0;
     font-weight: 400;
-    font-size: clamp(.8em,2.5vw, 2.1em);
+    font-size: clamp(.9em,2vw, 2.1em);
 }
 .blur-container ul{
     padding-left: .6em;
+    margin-bottom: 0%;
 }
 .blur-container li{
-    font-size: clamp(.7em,1.5vw, 1.4em);
+    font-size: clamp(.8em,1.4vw, 1.4em);
 }
 .skills-container-1, .skills-container-2{
     width: 100%;
@@ -65,24 +66,21 @@
     width: 50%;
 }
 @media (max-width:767px){
+    .blur-container{
+        height: 100%;
+        margin-bottom: 1%;
+    }
     .skills-container-1{
         flex-wrap: wrap;
     }
+    .skills-container-1 div:last-child{
+        margin-top: 10%;
+    }
+    .skills-container-2 div:first-child{
+        margin-bottom: 10%;
+    }
     .skills-container-1 div, .skills-container-2 div{
         height: fit-content;
-    }
-}
-@media (orientation: landscape){
-    .blur-container h4{
-        margin: 0;
-        font-weight: 400;
-        font-size: clamp(.7em,2vw, 2.1em);
-    }
-    .blur-container ul{
-        margin-bottom: 0%;
-    }
-    .blur-container li{
-        font-size: clamp(.7em,1.2vw, 1.4em);
     }
 }
 @media (orientation: landscape) and (max-width:700px){

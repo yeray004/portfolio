@@ -29,7 +29,7 @@
     position: absolute;
     width: 300px;
     height: fit-content;
-    font-size: 100%;
+    font-size: 110%;
     padding: 1% 5%;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);

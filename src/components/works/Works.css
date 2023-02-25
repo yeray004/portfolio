@@ -46,6 +46,7 @@
 .works-text{
     margin: 5% 0%;
     text-align: center;
+    font-size: clamp(.75rem, 1.1vw, 2rem);
 }
 .works-div1, .works-div2, .works-div3, .works-div4, .works-div5{
     margin: 2%;
