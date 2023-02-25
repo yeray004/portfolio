@@ -39,7 +39,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Formula2Vie</p>
-                        <button title='button' onClick={openModal1}></button>
+                        <button title='See project' onClick={openModal1}></button>
                     </div>
                     <div className="works-div2">
                         <div className='works-img-logo works-img2'>
@@ -48,7 +48,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Cripto Dashboard</p>
-                        <button title='button' onClick={openModal2}></button>
+                        <button title='See project' onClick={openModal2}></button>
                     </div>
                     <div className="works-div3">
                         <div className='works-img-logo works-img3'>
@@ -57,7 +57,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Whell of Happy Bunny</p>
-                        <button title='button' onClick={openModal3}></button>
+                        <button title='See project' onClick={openModal3}></button>
                     </div>
                     <div className="works-div4">
                         <div className='works-img-logo works-img4'>
@@ -66,7 +66,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>Tetris</p>
-                        <button title='button' onClick={openModal4}></button>
+                        <button title='See project' onClick={openModal4}></button>
                     </div>
                     <div className="works-div5">
                         <div className='works-img-logo works-img5'>
@@ -75,7 +75,7 @@ function Works() {
                             </div>
                         </div>
                         <p className='works-text'>SabujCha</p>
-                        <button title='button' onClick={openModal5}></button>
+                        <button title='See project' onClick={openModal5}></button>
                     </div>
                 </div>
                 <h1 className='down-line'>Work</h1>

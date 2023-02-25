@@ -23,7 +23,7 @@
     -webkit-box-shadow: 0 0 15vmax 15vmax var(--color-purple);
     box-shadow: 0 0 25vmax 25vmax var(--color-purple);
     animation: hue 23s 0s linear infinite, move3 18s 0s linear infinite;
-    opacity: .5;
+    opacity: .6;
 }
 @-webkit-keyframes move1 {
     0% {
