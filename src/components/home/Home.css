@@ -62,8 +62,6 @@
         right: 8%;
     }
     .home-container p:nth-child(6){
-        text-align: center;
-        width: 70%;
         display: none;
     }
 }
@@ -105,5 +103,8 @@
 @media (orientation: landscape) and (max-height:700px){
     .home-logo{
         width: 40%;
+    }
+    .home-container p:nth-child(6){
+        display: none;
     }
 }

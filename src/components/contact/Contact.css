@@ -6,17 +6,17 @@
 .relative-icon{
     position: relative;
 }
-.contact-icon{
+.contact-logo{
     position: absolute;
-    width: 50%;
+    width: 30%;
     height: auto;
     bottom: -7%;
     left: 10%;
+    transform: scaleX(-1);
 }
-.contact-icon svg{
-    width: 50%;
-    height: auto;
-    color: var(--color-black-6-c);
+.contact-logo img{
+    width: 100%;
+    rotate: 30deg;
 }
 .contact-container{
     width: 70%;
@@ -72,6 +72,13 @@
 }
 .down-line:hover{
     background-size: 100% 3px;
+}
+@media (max-width: 768px){
+    .contact-logo{
+        width: 75%;
+        left: -22%;
+        bottom: 8%;
+    }
 }
 @media (max-width:500px){
     .down-line-sub{

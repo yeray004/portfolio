@@ -1,6 +1,7 @@
 import './Contact.css'
 import { FiExternalLink } from "react-icons/fi";
 import { GiVitruvianMan } from "react-icons/gi";
+import logo from '../img/Logo Yeray.svg'
 
 function Contact() {
     return (
@@ -18,8 +19,8 @@ function Contact() {
                         <p><a target='_blank' href="https://github.com/yeray004">GitHub <FiExternalLink/></a></p>
                     </div>
                 </div>
-                <div className='contact-icon'>
-                    <GiVitruvianMan/>
+                <div className='contact-logo'>
+                    <img src={logo} alt='Logo Yeray' />
                 </div>
                 <div className='contact-bckg'></div>
                 <div className='bckg-fade'></div>
