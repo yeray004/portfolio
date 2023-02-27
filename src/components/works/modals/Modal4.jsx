@@ -1,4 +1,4 @@
-import tetris from '../../img/works/tetris1.webp'
+import tetris from '../../img/works/tetris-modal.webp'
 import figma from '../../img/icons/figma1.webp'
 import html from '../../img/icons/html1.webp'
 import css from '../../img/icons/css1.webp'
@@ -17,7 +17,7 @@ function Modal4({isOpen, closeModal}) {
                     <div>
                         <h4>Tetris</h4>
                         <p>Elaboración del videojuego Tetris utilizando el lenguaje de programación JavaScript, un primer acercamiento a los diferentes tipos de métodos (más de 20 en este código) que posee y podemos utilizar para manipular el DOM de nuestro documento HTML, así mismo adaptar su funcionalidad y jugabilidad en cualquier tipo de pantalla.</p>
-                        <p>Tipo de Proyecto: Front-end, grupal.</p>
+                        <p>Tipo de Proyecto: Front-end, grupal responsive.</p>
                         <div>
                             <img src={figma} className='modal-icon' alt="Figma" />
                             <img src={html} className='modal-icon' alt="HTML" />

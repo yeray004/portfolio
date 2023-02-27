@@ -1,4 +1,4 @@
-import sabujcha from '../../img/works/sabujcha1.webp'
+import sabujcha from '../../img/works/sabujcha-modal.webp'
 import html from '../../img/icons/html1.webp'
 import css from '../../img/icons/css1.webp'
 
@@ -15,7 +15,7 @@ function Modal5({isOpen, closeModal}) {
                     <div>
                         <h4>SabujCha</h4>
                         <p>Primer proyecto elaborando una landing page responsive desde 0, haciendo uso de HTML y CSS vanilla. Por medio de estilos se desarrolló en su totalidad la vista con los recursos brindados, y el requerimientos manejando la motodología SCRUM, respetando el diseño de los mockups, y responsive 100% funcional en todos los dispositivos.</p>
-                        <p>Tipo de Proyecto: Front-end, unipersonal.</p>
+                        <p>Tipo de Proyecto: Front-end, unipersonal, responsive.</p>
                         <div>
                             <img src={html} className='modal-icon' alt="HTML" />
                             <img src={css} className='modal-icon' alt="CSS" />

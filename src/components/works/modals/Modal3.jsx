@@ -1,4 +1,4 @@
-import wheelOfHappyBunny from '../../img/works/wheelofhappybunny1.webp'
+import wheelOfHappyBunny from '../../img/works/wohb-modal.webp'
 import figma from '../../img/icons/figma1.webp'
 import html from '../../img/icons/html1.webp'
 import css from '../../img/icons/css1.webp'
@@ -18,7 +18,7 @@ function Modal3({isOpen, closeModal}) {
                     <div>
                         <h4>Whell of Happy Bunny</h4>
                         <p>Desarrollo desde 0 a una rueda de la fortuna algo especial, una aplicación web para un nuevo evento de sacrifico de coders, con un sistema justo y aleatorio, en el que se hace el sorteo de una lista de nombres. Funcionamiento y adaptabilidad con nuestro tridente en desarrollo de código web, HTML, CSS (junto a la librería de Bootstrap), y JavaScript.</p>
-                        <p>Tipo de Proyecto: Front-end, grupal.</p>
+                        <p>Tipo de Proyecto: Front-end, grupal, responsive.</p>
                         <div>
                             <img src={figma} className='modal-icon' alt="Figma" />
                             <img src={html} className='modal-icon' alt="HTML" />

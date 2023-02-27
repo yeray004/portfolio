@@ -78,7 +78,7 @@ function Works() {
                         <button title='See project' onClick={openModal5}></button>
                     </div>
                 </div>
-                <h1 className='down-line'>Work</h1>
+                <h1 className='down-line'>Trabajos</h1>
                 <Modal1 isOpen={isOpenModal1} closeModal={closeModal1}/>
                 <Modal2 isOpen={isOpenModal2} closeModal={closeModal2}/>
                 <Modal3 isOpen={isOpenModal3} closeModal={closeModal3}/>

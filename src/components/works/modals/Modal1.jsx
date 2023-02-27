@@ -1,4 +1,4 @@
-import formula from '../../img/works/formula2vie1.webp'
+import formula from '../../img/works/formula-modal.webp'
 import figma from '../../img/icons/figma1.webp'
 import html from '../../img/icons/html1.webp'
 import css from '../../img/icons/css1.webp'
@@ -20,7 +20,7 @@ function Modal1({isOpen, closeModal}) {
                     <div>
                         <h4>Formula2Vie</h4>
                         <p>Formula2Vie es una idea qué surgió a raíz de la preocupación sobre el orígen y uso de diferentes tipos de cosméticos usados sobre nuestro cuerpo, es una alternativa diferente a la línea de cosmética tradicional e industrializada. La primicia fué inicializada gracias al trabajo de una jóven, Angie Herrera ingeniera química hizo posible el desarrollo de este proyecto con sus conocimientos, desarrollando la idea a comienzos del 2017 y avanzando poco a poco desde su entonces; a día de hoy contando con un punto de fábrica/producción, donde elaboran todos sus productos.</p>
-                        <p>Tipo de Proyecto: Front-end, unipersonal.</p>
+                        <p>Tipo de Proyecto: Front-end, unipersonal, responsive.</p>
                         <div>
                             <img src={figma} className='modal-icon' alt="Figma" />
                             <img src={html} className='modal-icon' alt="HTML" />

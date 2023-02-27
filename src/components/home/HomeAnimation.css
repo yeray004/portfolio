@@ -10,18 +10,18 @@
 }
 
 @keyframes puff-in-center {
-0% {
-    rotate: 0deg;
-}
-35%{
-    rotate: 2deg;
-}
-65%{
-    rotate: -2deg;
-}
-100% {
-    rotate: 0deg;
-}
+    0% {
+        rotate: 0deg;
+    }
+    35%{
+        rotate: 2deg;
+    }
+    65%{
+        rotate: -2deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
 }
 
 
