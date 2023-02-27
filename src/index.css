@@ -29,6 +29,9 @@ h3{
   --color-purple: #560E87;
   --color-gradient: linear-gradient(90deg, #035453, #560E87);
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   width: 100vw;
   height: 100vh;
