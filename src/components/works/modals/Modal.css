@@ -16,6 +16,11 @@ button{
 }
 .modal.is-open{
     display: flex;
+    opacity: .6;
+    transition: ease .15s;
+}
+.is-open:hover{
+    opacity: 1;
 }
 .modal-container{
     max-width: 1300px;
