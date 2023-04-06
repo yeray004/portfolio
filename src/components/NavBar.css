@@ -168,11 +168,12 @@ nav{
     z-index: -1;
 }
 header{
-    animation: header .5s ease 1s both;
+    animation: header .1s ease .5s both;
 }
 @keyframes header {
     from {
         opacity: 0;
+
     }
     to {
         opacity: 1;
